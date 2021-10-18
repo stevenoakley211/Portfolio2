@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { BrowserRouter as Router } from "react-router-dom";
+import ParticleComponent from "./components/particles";
+import NavBar from "./components/navBar";
 ReactDOM.render(
-  <React.StrictMode>
+  
+    <Router >
+    <NavBar />
+    <ParticleComponent />
     <App />
-  </React.StrictMode>,
+    </Router>
+    
+  ,
   document.getElementById('root')
 );
 

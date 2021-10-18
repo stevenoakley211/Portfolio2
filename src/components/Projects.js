@@ -2,18 +2,14 @@ import styled from 'styled-components';
 
 function Projects(){
     const MyDiv = styled.div`
+    padding:100px;
+    align-self: center;
     z-index: 0;
-    width: 75%;
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 90%;
 
     `
     const TextBox = styled.div`
-        m
-        padding: 16px;
+        padding: 5%;
         text-align: center;
         background-color:rgba(0, 0, 0, 0.5);
         
